@@ -1,0 +1,2 @@
+C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr-test\obj\Debug\oadr-test.csprojAssemblyReference.cache
+C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr-test\obj\Debug\oadr-test.csproj.CoreCompileInputs.cache

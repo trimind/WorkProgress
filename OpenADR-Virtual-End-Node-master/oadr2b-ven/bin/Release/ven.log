@@ -1,0 +1,231 @@
+[ 10/25/2019 7:26:44 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.createPartyRegistration(String requestID, oadrProfileType profileType, oadrTransportType transportType, String oadrTransportAddress, Boolean oadrReportOnly, Boolean oadrXmlSignature, Boolean oadrHttpPullModel) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 204
+   at oadr2b_ven.ven.VenWrapper.doCreatePartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 231
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 302
+[ 10/25/2019 7:26:48 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.cancelPartyRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 250
+   at oadr2b_ven.ven.VenWrapper.<cancelRegistration>b__52_0() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 735
+[ 10/25/2019 7:26:52 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.<queryRegistration>b__51_0() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 712
+[ 10/29/2019 2:54:22 PM ] [ ERROR ]: The path is not of a legal form.
+   at System.IO.Path.LegacyNormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetFullPathInternal(String path)
+   at System.Security.Cryptography.X509Certificates.X509Certificate.LoadCertificateFromFile(String fileName, Object password, X509KeyStorageFlags keyStorageFlags)
+   at System.Security.Cryptography.X509Certificates.X509Certificate2..ctor(String fileName, String password)
+   at oadr2b_ven.frmMain.btnCheckPassword_Click(Object sender, EventArgs e) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\frmMain.cs:line 321
+[ 11/6/2019 8:07:14 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:07:28 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:07:32 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:07:36 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:07:40 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:07:44 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:07:51 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:08:05 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:08:19 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:10:25 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/6/2019 8:15:55 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/8/2019 7:36:27 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/9/2019 9:34:07 AM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/9/2019 9:37:27 AM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/9/2019 9:43:49 AM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration()
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister)
+[ 11/18/2019 7:42:57 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/18/2019 7:43:01 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/18/2019 8:48:09 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/18/2019 8:48:13 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/18/2019 8:48:13 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/18/2019 8:48:23 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286
+[ 11/18/2019 8:48:27 PM ] [ ERROR ]: Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at oadrlib.lib.http.HttpWebRequestWrapper.post(String url, String contentType, String content, X509Certificate2Collection certCollection) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\http\HttpWebRequestWrapper.cs:line 144
+   at oadrlib.lib.helper.VEN.postRequest(String requestBody, String endPoint, OadrRequest oadrRequest, Type responseType) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\helper\VEN.cs:line 135
+   at oadrlib.lib.oadr2b.VEN2b.postRequest(String requestBody, String endPoint, OadrRequest2b oadrRequest, Boolean expectingOadrResponse) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 68
+   at oadrlib.lib.oadr2b.VEN2b.queryRegistration(String requestID) in C:\Users\hieu\Desktop\OpenADR-Virtual-End-Node-master\oadrlib\lib\oadr2b\VEN2b.cs:line 226
+   at oadr2b_ven.ven.VenWrapper.doQueryPartyRegistration() in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 159
+   at oadr2b_ven.ven.VenWrapper.handleRegistration(Boolean forceReregister) in C:\Users\hieu\Desktop\Ven\OpenADR-Virtual-End-Node-master\oadr2b-ven\ven\VenWrapper.cs:line 286

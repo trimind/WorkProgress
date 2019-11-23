@@ -1,0 +1,10 @@
+C:\Users\hieu\source\repos\VenCenter\VenCenter\bin\Debug\VenCenter.exe.config
+C:\Users\hieu\source\repos\VenCenter\VenCenter\bin\Debug\VenCenter.exe
+C:\Users\hieu\source\repos\VenCenter\VenCenter\bin\Debug\VenCenter.pdb
+C:\Users\hieu\source\repos\VenCenter\VenCenter\obj\Debug\VenCenter.csprojAssemblyReference.cache
+C:\Users\hieu\source\repos\VenCenter\VenCenter\obj\Debug\VenCenter.csproj.CoreCompileInputs.cache
+C:\Users\hieu\source\repos\VenCenter\VenCenter\obj\Debug\VenCenter.exe
+C:\Users\hieu\source\repos\VenCenter\VenCenter\obj\Debug\VenCenter.pdb
+C:\Users\hieu\source\repos\VenCenter\VenCenter\bin\Debug\CommandLine.dll
+C:\Users\hieu\source\repos\VenCenter\VenCenter\bin\Debug\CommandLine.xml
+C:\Users\hieu\source\repos\VenCenter\VenCenter\obj\Debug\VenCenter.csproj.CopyComplete

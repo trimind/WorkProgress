@@ -1,0 +1,15 @@
+C:\Users\hieu\Desktop\New folder (2)\Transeric.CommandLine\bin\Debug\Transeric.CommandLine.dll
+C:\Users\hieu\Desktop\New folder (2)\Transeric.CommandLine\bin\Debug\Transeric.CommandLine.pdb
+C:\Users\hieu\Desktop\New folder (2)\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.Properties.Resources.resources
+C:\Users\hieu\Desktop\New folder (2)\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.csproj.GenerateResource.cache
+C:\Users\hieu\Desktop\New folder (2)\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.csproj.CoreCompileInputs.cache
+C:\Users\hieu\Desktop\New folder (2)\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.dll
+C:\Users\hieu\Desktop\New folder (2)\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.pdb
+C:\Users\hieu\source\repos\VenCenter\Transeric.CommandLine\bin\Debug\Transeric.CommandLine.dll
+C:\Users\hieu\source\repos\VenCenter\Transeric.CommandLine\bin\Debug\Transeric.CommandLine.pdb
+C:\Users\hieu\source\repos\VenCenter\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.Properties.Resources.resources
+C:\Users\hieu\source\repos\VenCenter\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.csproj.GenerateResource.cache
+C:\Users\hieu\source\repos\VenCenter\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.csproj.CoreCompileInputs.cache
+C:\Users\hieu\source\repos\VenCenter\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.dll
+C:\Users\hieu\source\repos\VenCenter\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.pdb
+C:\Users\hieu\source\repos\VenCenter\Transeric.CommandLine\obj\Debug\Transeric.CommandLine.csprojAssemblyReference.cache
